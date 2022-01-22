@@ -9,9 +9,12 @@ let wordList = [
   'water',
   'pizza',
   'sushi',
-  'crabs'
+  'crabs',
+  'tweet',
+  'swiss',
+  'books'
 ];
-let secret = wordList[0]
+let secret = wordList[Math.floor(Math.random()*wordList.length)]
 
 let currentAttempt = ''
 let history = []
